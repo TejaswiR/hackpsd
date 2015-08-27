@@ -3,7 +3,10 @@ module.exports = function(grunt) {
   sass: {                              // Task 
     dist: {                            // Target 
       files: {                         // Dictionary of files 
-        'assets/stylesheets/styles.css': 'assets/stylesheets/src/styles.scss'
+        'assets/stylesheets/styles.css': 'assets/stylesheets/src/styles.scss',
+        'assets/stylesheets/info.css': 'assets/stylesheets/src/info.scss',
+        'assets/stylesheets/greeting.css': 'assets/stylesheets/src/greeting.scss',
+        'assets/stylesheets/footer.css': 'assets/stylesheets/src/footer.scss'
       }
     }
   },
@@ -16,7 +19,13 @@ module.exports = function(grunt) {
   cssmin: {
   target: {
     files: {
-      'assets/stylesheets/app.min.css': ['assets/stylesheets/styles.css']
+      'assets/stylesheets/app.min.css': 
+      [
+      'assets/stylesheets/styles.css',
+      'assets/stylesheets/info.css',
+      'assets/stylesheets/greeting.css',
+      'assets/stylesheets/footer.css'
+      ]
     }
   }
 }

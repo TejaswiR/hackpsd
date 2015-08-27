@@ -1,0 +1,25 @@
+#greeting {
+  background-image: url("../images/prayer.jpg");
+  min-height: 60vh; }
+  #greeting h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 8em;
+    color: #fff; }
+  #greeting p {
+    text-align: center;
+    font-size: 20px;
+    color: #fff; }
+  #greeting a {
+    background-color: transparent;
+    border: 1.5px solid #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 13px;
+    text-decoration: none;
+    position: relative; }
+
+/*# sourceMappingURL=greeting.css.map */

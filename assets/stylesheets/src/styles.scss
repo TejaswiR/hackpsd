@@ -1,5 +1,6 @@
 body{
   font-family: 'Lato', sans-serif;
+  overflow-x: hidden; 
 }
 #land{
   width: 100%;
@@ -29,7 +30,6 @@ body{
   border: 1.5px solid #fff;
   display: inline-block;
   padding: 10px 20px;
-  margin-bottom: 185px;
   border-radius: 3px;
   color: #fff;
   letter-spacing: 1px;

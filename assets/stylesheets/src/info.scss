@@ -1,0 +1,44 @@
+#info{
+  background-color: #FFC125;
+
+   a{
+      background-color: transparent;
+      border: 1.5px solid #000000;
+      display: inline-block;
+      padding: 10px 10px;
+      margin-bottom: 185px;
+      border-radius: 3px;
+      color: #000000;
+      letter-spacing: 1px;
+      font-size: 13px;
+      text-decoration: none;
+    }
+
+    .health{
+      margin-top: 150px;
+    }
+    .medical{
+      margin-top:150px;
+      img{
+        margin:0px;
+      }
+    }
+    .disaster{
+      margin-top: 150px;
+      img{
+       margin-top: -4px;
+      }
+      h2{
+        margin:0;
+      }
+    }
+    h1{
+      font-size: 45px;
+    }
+    .para{
+      font-size: 25px;
+      letter-spacing: 1px;
+      text-align: center;
+      font-style: italic;
+    }
+}
