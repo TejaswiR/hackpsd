@@ -9,13 +9,21 @@ module.exports = function(grunt) {
   },
   watch: {
     css: {
-      files: ['assets/stylesheets/src/*.sass'],
-      tasks: ['sass']
+      files: ['assets/stylesheets/src/*.scss'],
+      tasks: ['sass','cssmin']
+    }
+  },
+  cssmin: {
+  target: {
+    files: {
+      'assets/stylesheets/app.min.css': ['assets/stylesheets/styles.css']
     }
   }
+}
 });
 
   grunt.loadNpmTasks('grunt-contrib-sass');
-  grunt.loadNpmTasks('grunt-contrib-watch');    
-  grunt.registerTask('default',['sass','watch']);
+  grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');    
+  grunt.registerTask('default',['sass','cssmin','watch']);
 };
