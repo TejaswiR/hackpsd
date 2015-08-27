@@ -1,0 +1,27 @@
+{
+  "name": "hackpsd",
+  "version": "1.0.0",
+  "description": "Building a static webpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TejaswiR/hackpsd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TejaswiR/hackpsd/issues"
+  },
+  "homepage": "https://github.com/TejaswiR/hackpsd#readme",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-http-server": "^1.10.0"
+  }
+}
